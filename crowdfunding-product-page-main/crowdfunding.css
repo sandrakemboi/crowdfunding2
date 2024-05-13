@@ -1,0 +1,189 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: hsl(0, 0%, 48%);
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color:rgb(241, 239, 239);   
+}
+
+
+header{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    background-image: url(/crowdfunding-product-page-main/images/image-hero-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    margin: 40px 5px;
+    align-items: start;
+    justify-content: space-around;
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+       
+ }
+ li{
+    margin-left: 20px;
+ }
+li a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+li a:hover{
+    color: white;
+}
+
+
+main{
+    
+    background-color: transparent;
+    margin: -5% 30%;
+    border-style:none;
+    padding: 0 px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+          
+}
+.h2-div{
+    text-align: center;
+}
+#logo{
+    margin-top: -40px;
+    position: static;
+    
+   
+}
+
+
+h1{
+    color: black;
+
+}
+h2{
+    color: black;
+    width: 80%;
+}
+h3{
+    color: black;
+}
+div{
+
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 2px;
+    border-style:solid;
+    border-color: hsl(0, 0%, 87%);
+    border-radius: 10px;
+    
+    
+}
+.span{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   border-style: none;
+   padding: 20px;
+   
+  
+}
+button{
+    background-color:  hsl(176, 50%, 47%);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+  .bookmark{
+    padding: 0px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    border-style: solid;
+   
+}
+.wrapper{
+    
+    padding: 10px;
+    align-items: center;
+    background-color: grey;
+    width: 40px;
+}
+.left{
+    color: black;
+    font-weight: bold;
+}
+
+.left sup{
+color: hsl(0, 0%, 48%);
+
+}
+
+
+  
+  
+a{
+    color:  hsl(176, 50%, 47%);
+    text-decoration: none;
+}
+.stats{
+   display: flex;
+   justify-content: space-evenly;
+  
+   
+}
+.stats div{
+
+    border-style: none;
+    
+}
+a:hover{
+    color: hsl(176, 72%, 28%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(176, 72%, 28%);
+    cursor: pointer;
+}
+
+
+@media(max-width:940px){
+    .span{
+      flex-direction: column;
+       }
+    .stats {
+        flex-direction: column;}
+       
+    }
+    @media(max-width:530px){
+        body{
+            background-color: black;
+        }
+
+    
+        main{
+            background-color: rgb(241, 239, 239);
+            border-style: solid;
+            padding: 0px 10px;
+            overflow: hidden;
+        }
+    }
+       
+
+       
+
+
+
+
+
